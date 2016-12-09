@@ -9,7 +9,7 @@ def index():
 
 @app.route('/getstory') # this is a job for GET, not POST
 def plot_csv():
-    return app.send_static_file('docs/AmazingStory/cover.png')
+    return app.send_static_file('docs/AmazingStory/story.tale')
 
 
 if __name__ == "__main__":
